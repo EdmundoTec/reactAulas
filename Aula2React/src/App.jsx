@@ -3,14 +3,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 // import NavbarComponent from './Components/Navbar'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Header from './Components/Navbar/Header'
+import Header from './Components/Header'
 
 function App() {
 
   return (
     <>
-      {/* <NavbarComponent /> */}
       <Header />
+      
+      {/* <NavbarComponent /> */}
+      
       {/* <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
