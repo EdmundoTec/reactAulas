@@ -1,26 +1,29 @@
 import styles from './Header.module.css'
 import { Link } from 'react-router-dom'
-
-
+import Logo from '../Logo/index'
+import SearchBar from "../BarraDeBusca/index";
+import Carrinho from '../carrinhoDeCompras';
 function Header() {
     return (
         <header className={styles.header}>
             <div className={styles.headerTop}>
-                <span>Icone</span>
+                <span>
+                <Logo/>
+                </span>
                 <nav>
-                    <a href="">Barra de Busca</a>
-                    <a href="">Link Cadastre-se</a>
-                    <a href="">Botão</a>
-                    <a href="">Carrinho</a>
+                    <SearchBar /> {/*  Barra De Busca */}
+                    <a href="https://digitalcollege.com.br/">Cadastre-se</a>
+                    <a href="https://digitalcollege.com.br/">Entrar</a>
+                    <Carrinho/>
+                    
                 </nav>
             </div>
             <div className={styles.headerBottom}>
 
                 <Link to='/home'>Home</Link>
-                <Link to='/home'>Produtos</Link>
-                <Link to='/home'>Categoria</Link>
-                <Link to='/home'>Meus Produtos</Link>
-                <Link to='/login'>Login</Link>
+                <Link to='/Products'>Produtos</Link>
+                <Link to='/categorias'>Categoria</Link>
+                <Link to='/meus-produtos'>Meus Produtos</Link>
                 
             </div>
         </header>

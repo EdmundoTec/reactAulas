@@ -1,0 +1,8 @@
+
+.carrinhoIcon{
+    background-image: url('./mini-cart.svg');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 100px;
+  
+}

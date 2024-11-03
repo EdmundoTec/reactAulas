@@ -1,6 +1,6 @@
 .header {
-    width: 100%;
-    height: 85px;
+    width: 100vw;
+    height: 20vh;
     background-color: rgb(27, 4, 44);
     color: aliceblue;
     font-size: normal;
@@ -35,4 +35,8 @@
     display: flex;
     align-items: flex-start;
     /* background-color: darkgreen; */
+}
+
+.headerLogo {
+    background-image: url(logo-header.svg);
 }

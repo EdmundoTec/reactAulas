@@ -1,0 +1,20 @@
+.barraInput{
+    box-sizing: 500px;
+    background-color: #e2e2e2;
+    width: 50%;
+}
+
+.barraIcon{
+    background-image: url('./pesquisa.png');
+    background-repeat: no-repeat;
+    background-position: 100%;
+    padding-right: 16px;
+  
+}
+
+/* .barraButton{
+    width: 8vw;
+    height: 4vh;
+    border-radius: 0;
+    background-color: #e2e2e2;
+} */
